@@ -30,6 +30,7 @@ Setup password for mysql:
 
 ```
 mysql -u root -p
+CREATE DATABASE zabbix_db CHARACTER SET = 'utf8'  COLLATE = 'utf8_bin';
 create database zabbix_db;
 grant all privileges on zabbix_db.* to zabbix_user@localhost identified by 'Welcome123';
 flush privileges;
