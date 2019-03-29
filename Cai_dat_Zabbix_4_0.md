@@ -40,7 +40,7 @@ exit
 
 ```
 [root@zabbix ~]# cd /usr/share/doc/zabbix-server-mysql-4.0.6/
-[root@zabbix zabbix-server-mysql-4.0.6]# gunzip create.sql.gz
+[root@zabbix zabbix-server-mysql-4.0.6]# gunzip create.sql
 [root@zabbix zabbix-server-mysql-4.0.6]# mysql -u root -p zabbix_db < create.sql
 Enter password:
 [root@zabbix zabbix-server-mysql-4.0.6]#
